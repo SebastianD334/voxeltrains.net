@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Images</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style-flex.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .gallerycontainer {
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .gallery {
+            box-sizing: border-box;
+            border-radius: 20px;
+            object-fit: cover;
+            flex-basis: 100px;
+            height: 150px;
+            max-width: 300px;
+            height: auto;
+            flex-shrink: 0.5;
+            display: block;
+            margin: 10px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/other/newtest.html">Content</a></li>
+                <li><a href="/images-flex.html">Images</a></li>
+                <li><a href="/heading.html">Headings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="gallerycontainer">
+        <div>
+            <a class="gallery" target="_blank" href="https://cdn.modrinth.com/data/M0223QYQ/images/33d336eb6cd85fe02677255b852732adf5285088.png">
+                <img src="https://cdn.modrinth.com/data/M0223QYQ/images/33d336eb6cd85fe02677255b852732adf5285088.png" alt="link test image">
+            </a>
+        </div>
+        <div>
+            <a class="gallery" target="_blank" href="/images/ic2020.png">
+                <img src="/images/ic2020.png" alt="Voxel Trains IC 2020">
+            </a>
+        </div>
+        <div>
+            <a class="gallery" target="_blank" href="/images/church.png">
+                <img src="/images/church.png" alt="Gneissname Church">
+            </a>
+        </div>
+        <div>
+            <a class="gallery" target="_blank" href="/images/stair_building.png">
+                <img src="/images/stair_building.png" alt="Satisfactory Assembly Director System Factory">
+            </a>
+        </div>
+        <div>
+            <a class="gallery" target="_blank" href="/images/test_image.jpeg">
+                <img src="/images/test_image.jpeg" alt="Test image">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

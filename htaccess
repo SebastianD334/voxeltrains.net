@@ -1,0 +1,11 @@
+# Created by https://www.htaccessbuilder.com/
+# Edit at https://www.htaccessbuilder.com/rules/678d24389ddbe/
+# Sun, 19th January 2025
+<IfModule mod_rewrite.c>
+# Enable Rewrite Engine
+RewriteEngine On
+RewriteBase /
+# Redirect to www.
+RewriteCond %{HTTP_HOST} ^voxeltrains.net$
+RewriteRule (.*) https://www.voxeltrains.net/$1 [R=301,L] 
+</IfModule>
