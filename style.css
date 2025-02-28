@@ -7,7 +7,7 @@
 body {
     background-color: rgb(9, 26, 46);
 }
-main {
+body > header, body > div, body > footer, body > main {
     padding: 0px 10%;
 }
 header {
@@ -31,7 +31,7 @@ header div {
     max-width: 1600px;
     margin: auto;
     display: flex;
-    padding: 0px 10%;
+    padding: 0px;
     height: 70px;
     gap: 10px;
     box-sizing: initial;
