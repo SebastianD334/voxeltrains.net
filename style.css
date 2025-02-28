@@ -7,6 +7,9 @@
 body {
     background-color: rgb(9, 26, 46);
 }
+main {
+    padding: 0px 10%;
+}
 header {
     background-color: rgb(15, 58, 107);
 }
